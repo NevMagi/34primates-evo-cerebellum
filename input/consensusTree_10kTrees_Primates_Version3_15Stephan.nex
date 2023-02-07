@@ -1,0 +1,22 @@
+#NEXUS
+[created by the 10kTree Website - http://10kTrees.fas.harvard.edu]
+BEGIN TREES;
+translate
+1 Daubentonia_madagascariensis,
+2 Lepilemur_ruficaudatus,
+3 Microcebus_murinus,
+4 Varecia_variegata_variegata,
+5 Lagothrix_lagotricha,
+6 Aotus_trivirgatus,
+7 Saguinus_oedipus,
+8 Saimiri_sciureus,
+9 Loris_tardigradus,
+10 Gorilla_gorilla_gorilla,
+11 Homo_sapiens,
+12 Hylobates_lar,
+13 Pan_troglodytes_troglodytes,
+14 Macaca_mulatta,
+15 Galagoides_demidoff;
+tree consensus_15species = (((14:30.000000,(12:19.605945,(10:8.652233,(11:6.175880,13:6.175879):2.476353):10.953713):10.394055):16.811821,(5:21.321300,((6:19.487521,7:19.487522):0.605006,8:20.092528):1.228773):25.490521):26.191197,((((3:28.429094,2:28.429095):4.835621,4:33.264716):17.859349,1:51.124065):11.612487,(9:38.000000,15:38.000000):24.736553):10.266465);
+END;<br />
+<b>Warning</b>:  session_write_close() expects exactly 0 parameters, 1 given in <b>/var/www/10ktrees.nunn-lab.org/sendTreesToUser.php</b> on line <b>98</b><br />

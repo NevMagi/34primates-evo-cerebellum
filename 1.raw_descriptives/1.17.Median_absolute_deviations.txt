@@ -1,0 +1,200 @@
+[1] "Human: Cerebellar Volume - Cerebral Volume - Ansiform Area Volume - Cerebro-Cerebellar Ratio - Ansiform Area-Cerebellar Ratio"
+[1] 18709.67
+[1] 179368.1
+[1] 5003.034
+[1] 1.746679
+[1] 1.909901
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+[1mwrote[0m [32m2.32kB[0m in [36m 0s[0m, [32m117.39MB/s[0m[1mwrote[0m [32m1.00TB[0m in [36m 0s[0m, [32m426.81TB/s[0m                                                                                                                                             [1mwrote[0m [32m2.78kB[0m in [36m 0s[0m, [32m200.82MB/s[0m[1mwrote[0m [32m1.00TB[0m in [36m 0s[0m, [32m250.57TB/s[0m                                                                                                                                             [1mwrote[0m [32m855.00B[0m in [36m 0s[0m, [32m65.20MB/s[0m[1mwrote[0m [32m1.00TB[0m in [36m 0s[0m, [32m546.42TB/s[0m                                                                                                                                             [1mwrote[0m [32m965.00B[0m in [36m 0s[0m, [32m64.25MB/s[0m[1mwrote[0m [32m1.00TB[0m in [36m 0s[0m, [32m631.67TB/s[0m                                                                                                                                             
+	studentized Breusch-Pagan test
+
+data:  f.full.lm
+BP = 2.7297, df = 1, p-value = 0.0985
+
+
+	studentized Breusch-Pagan test
+
+data:  f.apes.lm
+BP = 9.7925, df = 1, p-value = 0.001752
+
+
+	studentized Breusch-Pagan test
+
+data:  f.nonapes.lm
+BP = 1.8803, df = 1, p-value = 0.1703
+
+Generalized least squares fit by REML
+  Model: CerebellarVol ~ CerebralVol 
+  Data: pheno 
+        AIC       BIC   logLik
+  -85.98835 -79.55895 45.99418
+
+Coefficients:
+                 Value  Std.Error  t-value p-value
+(Intercept) -0.8776496 0.08904596 -9.85614       0
+CerebralVol  1.0076590 0.01812280 55.60171       0
+
+ Correlation: 
+            (Intr)
+CerebralVol -0.988
+
+Standardized residuals:
+       Min         Q1        Med         Q3        Max 
+-2.4440299 -0.5206112 -0.1454644  0.5865045  2.0697548 
+
+Residual standard error: 0.1096234 
+Degrees of freedom: 65 total; 63 residual
+
+	studentized Breusch-Pagan test
+
+data:  f.full.lm
+BP = 2.7297, df = 1, p-value = 0.0985
+
+
+	studentized Breusch-Pagan test
+
+data:  f.apes.lm
+BP = 9.7925, df = 1, p-value = 0.001752
+
+
+	studentized Breusch-Pagan test
+
+data:  f.nonapes.lm
+BP = 1.8803, df = 1, p-value = 0.1703
+
+(Intercept) CerebralVol 
+ -0.1849535   0.8940371 
+Generalized least squares fit by REML
+  Model: CerebellarVol ~ CerebralVol 
+  Data: pheno 
+        AIC       BIC   logLik
+  -85.98835 -79.55895 45.99418
+
+Coefficients:
+                 Value  Std.Error  t-value p-value
+(Intercept) -0.8776496 0.08904596 -9.85614       0
+CerebralVol  1.0076590 0.01812280 55.60171       0
+
+ Correlation: 
+            (Intr)
+CerebralVol -0.988
+
+Standardized residuals:
+       Min         Q1        Med         Q3        Max 
+-2.4440299 -0.5206112 -0.1454644  0.5865045  2.0697548 
+
+Residual standard error: 0.1096234 
+Degrees of freedom: 65 total; 63 residual
+Generalized least squares fit by REML
+  Model: CerebellarVol ~ CerebralVol 
+  Data: pheno 
+        AIC       BIC   logLik
+  -85.98835 -79.55895 45.99418
+
+Coefficients:
+                 Value  Std.Error  t-value p-value
+(Intercept) -0.8776496 0.08904596 -9.85614       0
+CerebralVol  1.0076590 0.01812280 55.60171       0
+
+ Correlation: 
+            (Intr)
+CerebralVol -0.988
+
+Standardized residuals:
+       Min         Q1        Med         Q3        Max 
+-2.4440299 -0.5206112 -0.1454644  0.5865045  2.0697548 
+
+Residual standard error: 0.1096234 
+Degrees of freedom: 65 total; 63 residual
+(Intercept) CerebralVol 
+ -0.1849535   0.8940371 
+Generalized least squares fit by REML
+  Model: CerebellarVol ~ CerebralVol 
+  Data: pheno 
+        AIC       BIC   logLik
+  -85.98835 -79.55895 45.99418
+
+Coefficients:
+                 Value  Std.Error  t-value p-value
+(Intercept) -0.8776496 0.08904596 -9.85614       0
+CerebralVol  1.0076590 0.01812280 55.60171       0
+
+ Correlation: 
+            (Intr)
+CerebralVol -0.988
+
+Standardized residuals:
+       Min         Q1        Med         Q3        Max 
+-2.4440299 -0.5206112 -0.1454644  0.5865045  2.0697548 
+
+Residual standard error: 0.1096234 
+Degrees of freedom: 65 total; 63 residual
+
+	studentized Breusch-Pagan test
+
+data:  f.full.lm.med
+BP = 0.40751, df = 1, p-value = 0.5232
+
+
+	studentized Breusch-Pagan test
+
+data:  f.apes.lm.med
+BP = 0.0391, df = 1, p-value = 0.8433
+
+
+	studentized Breusch-Pagan test
+
+data:  f.nonapes.lm.med
+BP = 0.27275, df = 1, p-value = 0.6015
+
+
+	studentized Breusch-Pagan test
+
+data:  f.full.lm.med
+BP = 0.40751, df = 1, p-value = 0.5232
+
+
+	studentized Breusch-Pagan test
+
+data:  f.apes.lm.med
+BP = 0.0391, df = 1, p-value = 0.8433
+
+
+	studentized Breusch-Pagan test
+
+data:  f.nonapes.lm.med
+BP = 0.27275, df = 1, p-value = 0.6015
+
+Call: paired.r(xy = summary(f.full.lm.med)$r.squared, xz = summary(f.apes.lm.med)$r.squared, 
+    yz = summary(f.nonapes.lm.med)$r.squared, n = 34)
+[1] "test of difference between two correlated  correlations"
+t = 2.41  With probability =  0.02Call: paired.r(xy = summary(f.full.lm.med.aaROC)$r.squared, xz = summary(f.apes.lm.med.aaROC)$r.squared, 
+    yz = summary(f.nonapes.lm.med.aaROC)$r.squared, n = 13)
+[1] "test of difference between two correlated  correlations"
+t = NaN  With probability =  NaNCall: paired.r(xy = summary(f.full.lm.med.aacerebr)$r.squared, xz = summary(f.apes.lm.med.aacerebr)$r.squared, 
+    yz = summary(f.nonapes.lm.med.aacerebr)$r.squared, n = 13)
+[1] "test of difference between two correlated  correlations"
+t = 2.28  With probability =  0.05               _                           
+platform       x86_64-apple-darwin17.0     
+arch           x86_64                      
+os             darwin17.0                  
+system         x86_64, darwin17.0          
+status                                     
+major          4                           
+minor          1.0                         
+year           2021                        
+month          05                          
+day            18                          
+svn rev        80317                       
+language       R                           
+version.string R version 4.1.0 (2021-05-18)
+nickname       Camp Pontanezen             
