@@ -125,7 +125,7 @@ sink()
 ## SET-UP ##
 library(nlme)
 library(phytools)
-library(geiger)
+#library(geiger)
 library(ape)
 library(tidyverse)
 

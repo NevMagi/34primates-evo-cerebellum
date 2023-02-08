@@ -9,15 +9,13 @@
 # SET-UP
 #------------------------------------
 library(ape)
-library(picante)
-library(caper)
+#library(picante)
+#library(caper)
 library(Rphylopars)
 library(phytools)
 library(tidyverse)
 library(dplyr)
-library(reshape2)
 library(magrittr)
-library(dispRity)
 library(ggplot2)
 library(ggpubr)
 library(ggpmisc)
