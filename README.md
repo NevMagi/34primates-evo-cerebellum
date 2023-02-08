@@ -22,9 +22,10 @@ For any questions about the code, or troubleshooting, you can contact the author
 
 In this main folder you will find:
 - Scripts (scr)
-- Intermediate and final files for all analyses (foldered and number 0 through 7).
-- CERES volumetry reports for the 10 human brains in our study.
-- Figures (including Inkscape files) for the publication main text and supplementary data.
+- Input: all input files (used and not used in the current project).
+- Output: intermediate and final files for all analyses (foldered and number 0 through 7).
+- CERES: volumetry reports for the 10 human brains in our study.
+- PublicationFigures: figures (including Inkscape files) for the publication main text and supplementary data.
 
 ![alt text](https://github.com/NevMagi/34primates-evo-cerebellum/blob/main/Hamadryas.png?raw=true)
 
