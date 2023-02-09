@@ -24,7 +24,6 @@ Input data description (alphabetical):
 - consensusTree_10kTrees_Primates_Version3_13.nex: consensus phylogenetic tree for the 13 species for which the current study obtained complete data (including ansiform area (Crura I-II) volumes).
 - consensusTree_10kTrees_Primates_Version3_15.nex: consensus phylogenetic tree for the 15 species for which both the current study and the Stephan collection (Stephan et al. (1981)) reported cerebellar and cerebral volumes.
 - consensusTree_10kTrees_Primates_Version3_34.nex: consensus phylogenetic tree for the 34 species included in the current study.
-- consensusTree_10kTrees_Primates_Version3_Stephan34.nex: consensus phylogenetic tree for the 34 species in the Stephan dataset that had phylogenetic data available in 10kTrees. These dat were used for replication.
 - dfCerebellum: cerebellar volumetric data obtained from the BrainBox API.
 - dfCrusMahta: Crura I+II volumetric data, as segmented by Mahta Abbaspour, obtained from the BrainBox API.
 - dfCrusNeville: Crura I+II volumetric data, as segmented by Neville Magielse, obtained from the BrainBox API.
@@ -32,4 +31,9 @@ Input data description (alphabetical):
 - manual_automated_segmentations.csv: contains both manual segmentations and segmentations from CERES (reports from CERES are uploaded to a separate folder in this GitHub repository) added manually.
 - manual_automated_segmentations_withMEAN.numbers: convenient file to read the mean values and compare them. Not used in analyses.
 - stats2.csv: Neueroanatomical measurements obtained in Heuer et al. (2019).
-- Stephan1981-34species.csv: manually curated file listing cerebellar and cerebral volume observations from the Stephan collection. Used for replication analysis.
+
+As an important note, data from the Stephan collection have not been published open access.
+Therefore, we are not able to share them here. 
+You can still access our scripts, but will have to obtain the volumetric data from the Stephan et al. 1981 (DOI: 10.1159/000155963) yourselves.
+Additionally, we did not want to give away the species in the database without explicit consent of the authors/publishers, so the phylogenetic trees have to also be obtained from 10kTrees before being able to use our 7.robustness script.
+
