@@ -237,7 +237,10 @@ corrplot(R, method="number", order="original",
          tl.cex = 0.6,
          type = "upper",
          tl.col = "black",
+         diag = FALSE,
+         col = colorRampPalette(c("darkblue", "white", "darkred"))(100),
          tl.srt = 45,
+         tl.pos = "n",
          tl.offset = 1.0)
 dev.off()
 
