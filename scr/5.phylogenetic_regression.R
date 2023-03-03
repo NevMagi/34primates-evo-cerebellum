@@ -940,6 +940,107 @@ ggplot(phenoMedianAA, aes(y=MedianCrus, x=MedianCerebrum, colour= Hominoidea)) +
 graphics.off()
 
 
+### -------------------------------------------------------- ###
+### Although we do not correct all analyses for body mass for
+### several reasons, (volatile body weight data that was spar-
+### sely sampled; potential loss of signal, focus on relative
+### organization of the cerebello-cerebral system) it seems
+### that primate ansiform area scaling becomes larger as a di-
+### rect result of larger cerebella, which are closely-related
+### to larger brains and body mass. To show that the relative
+### size of the ansiform area increases with body mass, we cor-
+### relate these variables.
+### -------------------------------------------------------- ### 
+
+## Data input
+CCmass <- read_csv2("./0.cleanInput/PhenotypesMedian.csv") %>% 
+  dplyr::rename(mass = `Body mass species mean`) %>%
+  filter(!is.na(mass))
+CCmass$CCrat <- log10(CCmass$MedianCerebroCerebellar) 
+
+AAmass <- CCmass %>% filter(!is.na(MedianCerebellarCrus))
+AAmass <- AAmass[-c(9,10),]
+AAmass$AArat <- log10(AAmass$MedianCerebellarCrus) 
+
+AAmass <- read_csv2("./0.cleanInput/PhenotypesMedian.csv") %>% 
+  dplyr::rename(mass = `Body mass species mean`) %>%
+  dplyr::filter(!is.na(mass)) %>% filter(!is.na(MedianCerebellarCrus))
+
+## Correlation - CC Ratio - BodyMass)
+cor.test(CCmass$MedianCerebroCerebellar, CCmass$mass, method=c("pearson"))
+
+## Correlation - AA Ratio - BodyMass)
+cor.test(AAmass$MedianCerebellarCrus, AAmass$mass, method=c("pearson"))
+
+### -------------------------- ###
+### Plotting regressions
+### -------------------------- ### 
+library("ggpubr")
+ggscatter(CCmass, x = "mass", y = "MedianCerebroCerebellar",
+          add = "reg.line", conf.int = TRUE, 
+          cor.coef = TRUE, cor.method = "pearson",
+          xlab = "Body Mass (in kilograms; log-transformed)", ylab = "Ratio cerebellum/cerebrum")
+
+ggscatter(AAmass, x = "mass", y = "MedianCerebellarCrus", 
+          add = "reg.line", conf.int = TRUE, 
+          cor.coef = TRUE, cor.method = "pearson",
+          xlab = "Body Mass (in kilograms; log-transformed)", ylab = "Ratio ansiform area/cerebellum")
+
+
+## Log-transformed ratios ## 
+ggscatter(CCmass, x = "mass", y = "CCrat", 
+          add = "reg.line", conf.int = TRUE, 
+          cor.coef = TRUE, cor.method = "pearson",
+          xlab = "Body Mass (in kilograms; log-transformed)", ylab = "Ratio cerebellum/cerebrum (loge-transformed")
+
+ggscatter(AAmass, x = "mass", y = "AArat", 
+          add = "reg.line", conf.int = TRUE, 
+          cor.coef = TRUE, cor.method = "pearson",
+          xlab = "Body Mass (in kilograms; log-transformed)", ylab = "Ratio ansiform area/cerebellum (log-transformed)")
+
+
+## Normality ## 
+sink("5.phylogenetic_regressions/5.22.normality_BWtraits.txt")
+# Shapiro-Wilk normality test CC
+shapiro.test(CCmass$MedianCerebroCerebellar) # => p = 0.07 = NORMAL
+# Shapiro-Wilk normality test AA
+shapiro.test(AAmass$MedianCerebellarCrus) # => p = 0.14 = NORMAL
+# Shapiro-Wilk normality test for mass
+shapiro.test(CCmass$mass) # => p = 0.59 = NORMAL
+shapiro.test(AAmass$mass) # => p = 0.46 = NORMAL
+sink()
+
+### -------------------------- ###
+### With lm. Separating apes/
+### non-apes.
+### -------------------------- ###
+
+# Model construction
+reg.mod1.MASS <- lm(MedianCerebroCerebellar ~ mass, data = CCmass)
+reg.mod2.MASS <- lm(MedianCerebellarCrus ~ mass, data = AAmass)
+
+
+sink("5.phylogenetic_regressions/5.23.regular_regressions_BW.txt")
+print("Ratios regressed on body mass.")
+summary(reg.mod1.MASS)
+summary(reg.mod2.MASS)
+sink()
+
+tiff("./5.phylogenetic_regressions/5.24.regularRegression-CCmass.tiff", width = 8, height = 8, units = 'in', res = 300)
+ggplotRegression(reg.mod1.MASS, ylabel = "Cerebellar/cerebral volume ratio", xlabel = "Body mass (log-transformed)") + theme_classic()  +
+  theme(axis.text=element_text(size=14),
+        axis.title=element_text(size=16))
+graphics.off()
+
+tiff("./5.phylogenetic_regressions/5.25.regularRegression-AAmass.tiff", width = 8, height = 8, units = 'in', res = 300)
+ggplotRegression(reg.mod2.MASS, ylabel = "Ansiform Area/cerebellar volume ratio", xlabel = "Body mass (log-transformed)") + theme_classic()  +
+  theme(axis.text=element_text(size=14),
+        axis.title=element_text(size=16))
+graphics.off()
+
+
+
+
 ### -------------------------- ###
 ### END of script
 ### -------------------------- ###   

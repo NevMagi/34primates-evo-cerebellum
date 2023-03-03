@@ -24,17 +24,18 @@
      inkscape:pagecheckerboard="0"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="1.0610799"
-     inkscape:cx="383.10027"
-     inkscape:cy="221.9437"
-     inkscape:window-width="1920"
-     inkscape:window-height="975"
+     inkscape:zoom="1.8727376"
+     inkscape:cx="519.82723"
+     inkscape:cy="487.2546"
+     inkscape:window-width="1312"
+     inkscape:window-height="795"
      inkscape:window-x="0"
      inkscape:window-y="25"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="layer1"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="g6384"
      showborder="false"
-     inkscape:showpageshadow="false" />
+     inkscape:showpageshadow="false"
+     inkscape:object-nodes="false" />
   <defs
      id="defs232">
     <clipPath
@@ -11855,6 +11856,34 @@
          y="-691.28217"
          transform="scale(1,-1)" />
     </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath7746-7">
+      <path
+         d="m 447,625 h 77 v 9 h -77 z"
+         id="path7744-9" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath7746-8">
+      <path
+         d="m 447,625 h 77 v 9 h -77 z"
+         id="path7744-3" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath7746-9">
+      <path
+         d="m 447,625 h 77 v 9 h -77 z"
+         id="path7744-0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath7746-9-6">
+      <path
+         d="m 447,625 h 77 v 9 h -77 z"
+         id="path7744-0-2" />
+    </clipPath>
   </defs>
   <g
      inkscape:label="Layer 1"
@@ -14014,6 +14043,26 @@
                  y="0"
                  sodipodi:role="line"
                  id="tspan7750">12.33</tspan></text>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g7740-3"
+         transform="translate(54.121943,-3.5185504)">
+        <g
+           id="g7742-8"
+           clip-path="url(#clipPath7746-7)">
+          <g
+             id="g7748-0"
+             transform="matrix(0.24,0,0,0.24,18,621.92)">
+            <text
+               transform="matrix(1,0,0,-1,1911.611,20)"
+               style="font-variant:normal;font-weight:normal;font-size:29px;font-family:Arial;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               id="text7752-2"><tspan
+                 x="0 16.2197 32.4394 40.539101 56.758801"
+                 y="0"
+                 sodipodi:role="line"
+                 id="tspan7750-4">12.33</tspan></text>
           </g>
         </g>
       </g>
@@ -16203,6 +16252,14 @@
            d="m 447.84,530.96 h 75.36 v -12 h -75.36 z"
            style="fill:#e7e6e6;fill-opacity:1;fill-rule:nonzero;stroke:none"
            id="path9252" />
+      </g>
+      <g
+         id="g9250-3"
+         transform="translate(2.887438,5.5386391)">
+        <path
+           d="m 447.84,530.96 h 75.36 v -12 h -75.36 z"
+           style="fill:#e7e6e6;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           id="path9252-7" />
       </g>
       <g
          id="g9254">
@@ -19448,10 +19505,10 @@
                transform="matrix(1,0,0,-1,1867.113,-838)"
                style="font-variant:normal;font-weight:normal;font-size:29px;font-family:Arial;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
                id="text11416"><tspan
-                 x="0 16.2197 32.4394 40.539101 56.758801"
-                 y="0"
                  sodipodi:role="line"
-                 id="tspan11414">29.73</tspan></text>
+                 id="tspan11414"
+                 x="0"
+                 y="0">27.25</tspan></text>
           </g>
           <g
              id="g11418"
@@ -20637,10 +20694,10 @@
                transform="matrix(1,0,0,-1,1867.113,-940)"
                style="font-variant:normal;font-weight:normal;font-size:29px;font-family:Arial;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
                id="text12218"><tspan
-                 x="0 16.2197 32.4394 40.539101 56.758801"
-                 y="0"
+                 x="0"
+                 id="tspan12216"
                  sodipodi:role="line"
-                 id="tspan12216">29.79</tspan></text>
+                 y="0">30.76</tspan></text>
           </g>
           <g
              id="g12220"
@@ -25670,6 +25727,70 @@
           <g
              id="g15580"
              transform="matrix(0,0.24,-0.24,0,272.8714,240.8)" />
+        </g>
+      </g>
+      <g
+         id="g7740-9"
+         transform="translate(61.778035,-2.4248229)">
+        <g
+           id="g7742-0"
+           clip-path="url(#clipPath7746-8)">
+          <g
+             id="g7748-5"
+             transform="matrix(0.24,0,0,0.24,18,621.92)">
+            <text
+               transform="matrix(1,0,0,-1,1911.611,20)"
+               style="font-variant:normal;font-weight:normal;font-size:29px;font-family:Arial;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               id="text7752-22"><tspan
+                 x="0 16.2197 32.4394 40.539101 56.758801"
+                 y="0"
+                 sodipodi:role="line"
+                 id="tspan7750-7">12.33</tspan></text>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g7740-2"
+         transform="translate(0.36,-91.000532)">
+        <g
+           id="g7742-3"
+           clip-path="url(#clipPath7746-9)"
+           transform="translate(-0.11147093,-0.55735464)">
+          <g
+             id="g7748-9"
+             transform="matrix(0.24,0,0,0.24,18,621.92)">
+            <text
+               transform="matrix(1,0,0,-1,1911.611,20)"
+               style="font-variant:normal;font-weight:normal;font-size:29px;font-family:Arial;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               id="text7752-9"><tspan
+                 x="0"
+                 y="0"
+                 sodipodi:role="line"
+                 id="tspan7750-70">11.20</tspan></text>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g7740-2-7"
+         transform="translate(-136.14195,-93.641267)">
+        <g
+           id="g7742-3-0"
+           clip-path="url(#clipPath7746-9-6)"
+           transform="translate(2.38711,0.720735)">
+          <g
+             id="g7748-9-3"
+             transform="matrix(0.24,0,0,0.24,18,621.92)">
+            <text
+               transform="scale(1,-1)"
+               style="font-variant:normal;font-weight:normal;font-size:29px;font-family:Arial;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               id="text7752-9-9"
+               x="1921.2821"
+               y="-20"><tspan
+                 x="1921.2821"
+                 y="-20"
+                 sodipodi:role="line"
+                 id="tspan7750-70-9">103</tspan></text>
+          </g>
         </g>
       </g>
     </g>

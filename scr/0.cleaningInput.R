@@ -31,7 +31,7 @@ Vanessa <- read_csv2("./input/dfCrusVanessa.csv") #Combined Crus I/II segmentati
 Neocortical <- read_csv2("./input/stats2.csv") # Neocortical measurements from Heuer et al. 2019
 
 ## Body weight data
-## Was ultimately not used. See discusison in the manuscript.
+## Was ultimately not used. See discussion in the manuscript.
 BodyWeight <- read_csv2("./input/bodyweight-isleretal2008.csv") %>% dplyr::select(c("Species_Full","Body mass species mean")) #Placeholder average body weight data collected by Isler et al. 2008 
 names(BodyWeight)[1] <- 'WilsonReederName' #Change column name for merging purposes
 BodyWeight$WilsonReederName <- sub(" ", "_", BodyWeight$WilsonReederName) # And sub all spaces in the species names to underscores, also for matching purposes.

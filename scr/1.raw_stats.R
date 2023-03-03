@@ -1114,7 +1114,7 @@ lmtest::bptest(f.nonapes.lm) # Not sign.
 # For species Median, excluding outlier Crab-eating macaque and Rhesus monkey.
 # USE THIS, or lm in 5.phylogenetic regression?
 # They should amount to the same (regressions using median values, that is).
-# We can keep this as an alternative visualsation.
+# We can keep this as an alternative visualization.
 ### ------------------------------------------------------------------------- ###
 
 ## Cerebellum vs Cerebrum

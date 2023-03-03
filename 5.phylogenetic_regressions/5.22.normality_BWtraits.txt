@@ -1,0 +1,24 @@
+
+	Shapiro-Wilk normality test
+
+data:  CCmass$MedianCerebroCerebellar
+W = 0.94146, p-value = 0.07493
+
+
+	Shapiro-Wilk normality test
+
+data:  AAmass$MedianCerebellarCrus
+W = 0.95066, p-value = 0.5349
+
+
+	Shapiro-Wilk normality test
+
+data:  CCmass$mass
+W = 0.97369, p-value = 0.5883
+
+
+	Shapiro-Wilk normality test
+
+data:  AAmass$mass
+W = 0.94838, p-value = 0.4993
+

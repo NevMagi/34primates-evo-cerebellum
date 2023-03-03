@@ -1,0 +1,39 @@
+[1] "Ratios regressed on body mass."
+
+Call:
+lm(formula = MedianCerebroCerebellar ~ mass, data = CCmass)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-7.3569 -3.2787 -0.8492  2.5179  9.6426 
+
+Coefficients:
+            Estimate Std. Error t value Pr(>|t|)    
+(Intercept)  15.2199     0.9332  16.309   <2e-16 ***
+mass         -0.1400     0.9102  -0.154    0.879    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 4.43 on 31 degrees of freedom
+Multiple R-squared:  0.0007631,	Adjusted R-squared:  -0.03147 
+F-statistic: 0.02367 on 1 and 31 DF,  p-value: 0.8787
+
+
+Call:
+lm(formula = MedianCerebellarCrus ~ mass, data = AAmass)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-10.9145  -2.1281  -0.2372   2.7784   8.1497 
+
+Coefficients:
+            Estimate Std. Error t value Pr(>|t|)   
+(Intercept)    9.835      2.420   4.064  0.00134 **
+mass           7.045      2.040   3.453  0.00428 **
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 5.195 on 13 degrees of freedom
+Multiple R-squared:  0.4784,	Adjusted R-squared:  0.4383 
+F-statistic: 11.92 on 1 and 13 DF,  p-value: 0.004282
+
